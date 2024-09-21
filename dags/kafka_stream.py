@@ -56,7 +56,7 @@ def stream_data():
     res = format_data(res)
     print(json.dumps(res, indent=3))
 
-    producer = KafkaProducer(bootstrap_servers=['localhost:9092']) #, max_block_ms=10000)
+    producer = KafkaProducer(bootstrap_servers=['broker:29092']) # 'localhost:9092' #, max_block_ms=10000)
     # time.sleep(5)
     producer.send('users_created', json.dumps(res).encode('utf-8'))
     # producer.flush()  
