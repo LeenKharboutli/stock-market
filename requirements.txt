@@ -1,3 +1,5 @@
 apache-airflow
 kafka-python==2.0.2; python_version < '3.12'
 kafka-python @ git+https://github.com/dpkp/kafka-python.git ; python_version >= '3.12'
+pyspark
+cassandra-driver
