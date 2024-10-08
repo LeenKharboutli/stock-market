@@ -1,4 +1,4 @@
-# Real-time Data Pipeline
+# Real-time Stock Market Data Pipeline
 
 ![Data Pipeline Architecture](./data_pipeline_architecture.svg)
 
